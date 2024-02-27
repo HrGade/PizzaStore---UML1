@@ -12,7 +12,7 @@ namespace PizzaStore___UML1
         //Create Pizzas
         Pizza pizza1 = new Pizza("Margherita", 35);
         Pizza pizza2 = new Pizza("GreekPizza", 65);
-        Pizza pizza3 = new Pizza("SalatPizza", 55);
+        Pizza pizza3 = new Pizza("SalatPizza", 55); 
 
         //Create Drinks
         Drink pepsi = new Drink("Pepsi", 30);
@@ -29,9 +29,26 @@ namespace PizzaStore___UML1
         Order order2 = new Order(pizza2, customer2, cola);
         Order order3 = new Order(pizza3, Customer3, fanta);
 
-        Console.WriteLine(order1);
-        Console.WriteLine(order2);
-        Console.WriteLine(order3);
+            int nr1 = 1;
+            nr1 = int.Parse(Console.ReadLine()!);
+
+            if (nr1 == 1) 
+            {
+                Console.WriteLine(order1);
+            }
+
+            
+            if (nr1 == 2)
+            {
+                Console.WriteLine(order2);
+            }
+
+            
+            if (nr1 == 3) 
+            {
+                Console.WriteLine(order3);
+            }
+        
         }
 
     }

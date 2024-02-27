@@ -31,7 +31,7 @@ namespace PizzaStore___UML1
         public override string ToString()
         {
             decimal totalPrice = CalculateTotalPrice();
-            return ($"Order {Pizza.Name}, for {Customer.Name}, Total Cost {totalPrice}");
+            return ($"Order: 1 stk. {Pizza.Name}, 1 stk. {Drink}, For {Customer} Pris: {totalPrice}kr.");
         }
 
         
