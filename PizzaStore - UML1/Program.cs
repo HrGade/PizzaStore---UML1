@@ -18,6 +18,7 @@
                 Console.WriteLine("For at bestille - indtast tallet af det nummer tilhørende menuen du ønsker");
             Console.ForegroundColor= ConsoleColor.White;
             Console.WriteLine();
+            Console.WriteLine();
             Menu order = new Menu();
             order.CustomerOrder();
             Console.ReadKey();
