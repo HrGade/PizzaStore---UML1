@@ -8,7 +8,7 @@ namespace PizzaStore___UML1
 {
     internal class Customer
     {
-        public string Name { get; set; 
+        public string Name { get; set; } 
 
 
         public Customer(string name)
