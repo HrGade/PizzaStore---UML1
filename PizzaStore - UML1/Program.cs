@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
                
             Console.WriteLine("Velkommen til Big Mammas Pizza");
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Brown;
              Console.WriteLine("Alle vores priser er inkl moms");
             Console.WriteLine();
              Console.WriteLine("nr 1:  - Margherita-pizza + Pepsi til 81.25kr.");

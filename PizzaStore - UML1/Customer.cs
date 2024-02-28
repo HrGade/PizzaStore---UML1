@@ -11,14 +11,14 @@ namespace PizzaStore___UML1
         public string Name { get; set; }
         public string Address { get; set; }
 
-        public Customer(string name, string address)
+        public Customer(string name)
         {
             Name = name;
-            Address = address;  
+              
         }
         public override string ToString()
         {
-            return ($"Customers name: {Name}, Customers address: {Address}");
+            return ($"Customers name: {Name}");
         }
     }
 }
