@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //Designing the italian color logo
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Velkommen til Big Mammas Pizza :D ");
@@ -16,6 +17,7 @@
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.BackgroundColor = ConsoleColor.Black;
+            //Pizza menu list
             Console.WriteLine("nr. 1:  - Margherita-pizza + Pepsi til 81.25kr.");
             Console.WriteLine();
             Console.WriteLine("nr. 2:  - Greek-pizza + Cola til 118.75kr.");
@@ -27,8 +29,9 @@
             Console.ForegroundColor= ConsoleColor.White;
             Console.WriteLine();
             Console.WriteLine();
+            //Start() method
             Menu order = new Menu();
-            order.CustomerOrder();
+            order.Start();
             Console.ReadKey();
         }
     }

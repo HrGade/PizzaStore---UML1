@@ -8,7 +8,7 @@ namespace PizzaStore___UML1
 {
     internal class Menu
     {
-        public void CustomerOrder() { 
+        public void Start() { 
         //Create Pizzas
         Pizza pizza1 = new Pizza("Margherita", 35);
         Pizza pizza2 = new Pizza("GreekPizza", 65);
