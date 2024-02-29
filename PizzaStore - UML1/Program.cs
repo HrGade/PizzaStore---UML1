@@ -14,9 +14,9 @@
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine();
-             Console.WriteLine("nr. 1:  - Margherita-pizza + Pepsi til 81.25kr.");
+            Console.WriteLine("nr. 1:  - Margherita-pizza + Pepsi til 81.25kr.");
             Console.WriteLine();
-              Console.WriteLine("nr. 2:  - Greek-pizza + Cola til 118.75kr.");
+            Console.WriteLine("nr. 2:  - Greek-pizza + Cola til 118.75kr.");
             Console.WriteLine();
             Console.WriteLine("nr. 3:  - Salat-pizza + Fanta til 106.25kr.");
             Console.WriteLine();
