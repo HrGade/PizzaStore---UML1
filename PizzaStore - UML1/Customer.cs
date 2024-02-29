@@ -18,7 +18,7 @@ namespace PizzaStore___UML1
         }
         public override string ToString()
         {
-            return ($"Kundenavn {Name}");
+            return ($"{Name}");
         }
     }
 }
