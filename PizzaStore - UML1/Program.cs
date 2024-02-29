@@ -6,14 +6,16 @@
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.BackgroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("Velkommen til Big Mammas Pizza :D");
+            Console.WriteLine("Velkommen til Big Mammas Pizza :D ");
             Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.WriteLine("                                  ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.ForegroundColor= ConsoleColor.DarkRed;
             Console.WriteLine("De bedste pizzaer i hele landet!!!");
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.WriteLine("nr. 1:  - Margherita-pizza + Pepsi til 81.25kr.");
             Console.WriteLine();
             Console.WriteLine("nr. 2:  - Greek-pizza + Cola til 118.75kr.");
