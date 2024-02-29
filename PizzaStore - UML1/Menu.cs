@@ -34,18 +34,21 @@ namespace PizzaStore___UML1
 
             if (nr1 == 1) 
             {
+                Console.WriteLine("Du har valgt menu nr. 1. Velbekomme");
                 Console.WriteLine(order1);
             }
 
             
             else if  (nr1 == 2)
             {
+                Console.WriteLine("Du har valgt menu nr. 2. Velbekomme");
                 Console.WriteLine(order2);
             }
 
             
             else if (nr1 == 3) 
             {
+                Console.WriteLine("Du har valgt menu nr. 3. Velbekomme");
                 Console.WriteLine(order3);
             }
         
