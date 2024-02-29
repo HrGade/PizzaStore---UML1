@@ -21,7 +21,7 @@
             Console.WriteLine("nr. 3:  - Salat-pizza + Fanta til 106.25kr.");
             Console.WriteLine();
             Console.WriteLine("For at bestille - indtast tallet af det nummer tilhørende menuen du ønsker");
-            Console.WriteLine("Alle vores priser er inkl moms");
+            Console.WriteLine("Alle vores priser er inkl moms.");
             Console.ForegroundColor= ConsoleColor.White;
             Console.WriteLine();
             Console.WriteLine();

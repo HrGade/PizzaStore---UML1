@@ -38,13 +38,13 @@ namespace PizzaStore___UML1
             }
 
             
-            if (nr1 == 2)
+            else if  (nr1 == 2)
             {
                 Console.WriteLine(order2);
             }
 
             
-            if (nr1 == 3) 
+            else if (nr1 == 3) 
             {
                 Console.WriteLine(order3);
             }
