@@ -5,14 +5,13 @@
         static void Main(string[] args)
         {
             //Designing the italian color logo
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Velkommen til Big Mammas Pizza :D ");
-            Console.BackgroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.White;
             Console.WriteLine("                                  ");
             Console.BackgroundColor = ConsoleColor.DarkGreen;
-            Console.ForegroundColor= ConsoleColor.DarkRed;
+            Console.ForegroundColor= ConsoleColor.White;
             Console.WriteLine("De bedste pizzaer i hele landet!!!");
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.Green;
