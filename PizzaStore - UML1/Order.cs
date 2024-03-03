@@ -24,7 +24,7 @@ namespace PizzaStore___UML1
         public decimal CalculateTotalPrice()
         {
             decimal totalPrice = Pizza.Price + Drink.Price;  
-            totalPrice *= 1.25m; //Adding tax money
+            totalPrice *= 1.40m; //Adding tax money
             return totalPrice;
         }
 
